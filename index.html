@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Com amor, para meu amor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #E0FFFF;
+    }
+
+    .button-container {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .row {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #E0FFFF;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Para meu amor</div>
+    <nav>
+      <a onclick="ipanema()" href="#">Foi aqui</a>
+      <a onclick="pedido()" href="#">Toquei no sol</a>
+      <a href="#">Te amo</a>
+    </nav>
+  </header>
+
+  <div class="button-container">
+    <div class="row">
+      <button onclick="irparavideo()" class="btn">21.04.25</button>
+      <button class="btn">21.05.25</button>
+      <button class="btn">12.06.25</button>
+    </div>
+    <div class="row">
+      <button class="btn">21.06.25</button>
+      <button class="btn">21.07.25</button>
+      <button class="btn">23.07.25</button>
+    </div>
+  </div>
+<script>
+
+    function ipanema() {
+        window.location.href = 'https://drive.google.com/file/d/1fSCsGZUQ1tLsOFiKfkbNpzAaMDXeHBK_/view?usp=drive_link'
+    }
+    function pedido() {
+        window.location.href = 'https://drive.google.com/file/d/1fXhubAF5b6SAhSfh2w1Hg8s17W0dExXH/view?usp=drive_link'
+    }
+</script>
+</body>
+</html>
